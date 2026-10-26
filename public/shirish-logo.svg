@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188 48" role="img" aria-labelledby="title desc">
+  <title id="title">Shirish Shrestha logo</title>
+  <desc id="desc">The letters SS followed by an orange period.</desc>
+  <text
+    x="0"
+    y="38"
+    fill="#10211F"
+    font-family="Gilroy, Arial, sans-serif"
+    font-size="42"
+    font-weight="800"
+    letter-spacing="-3.36"
+  >SS</text>
+  <text
+    x="126"
+    y="38"
+    fill="#D85B3F"
+    font-family="Gilroy, Arial, sans-serif"
+    font-size="42"
+    font-weight="800"
+  >.</text>
+</svg>
