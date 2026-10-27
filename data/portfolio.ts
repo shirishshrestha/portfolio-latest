@@ -40,7 +40,7 @@ export const featuredWork = [
     title: "Vendor billing reconciliation",
     copy: "A system for ingesting vendor rate cards and invoices, matching services, and reconciling billed amounts against contracted rates.",
     href: "https://github.com/shirishshrestha/nom",
-    tags: ["Next.js", "PostgreSQL", "AI workflows"],
+    tags: ["React", "Vite", "AI workflows"],
   },
   {
     type: "Internal platform",

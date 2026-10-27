@@ -21,8 +21,8 @@ export function MobileNavigationDock() {
   }));
 
   return (
-    <nav className="mobile-navigation-dock" aria-label="Mobile navigation">
-      <Dock items={items} />
+    <nav className="pointer-events-auto fixed inset-x-0 bottom-[max(8px,env(safe-area-inset-bottom))] z-30 hidden max-[540px]:block" aria-label="Mobile navigation">
+      <Dock className="pointer-events-auto" items={items} />
     </nav>
   );
 }

@@ -12,8 +12,8 @@ export function ThemeToggle() {
     () => false,
   );
 
-  if (!mounted) return <span className="theme-toggle-placeholder" aria-hidden="true" />;
+  if (!mounted) return <span className="grid size-[30px] shrink-0 place-items-center rounded-full border border-(--line) bg-transparent" aria-hidden="true" />;
   const isDark = resolvedTheme === "dark";
   const label = isDark ? "Switch to light theme" : "Switch to dark theme";
-  return <button className="theme-toggle" type="button" onClick={() => setTheme(isDark ? "light" : "dark")} aria-label={label} title={label}><SunIcon className="theme-icon theme-icon-light" weight="bold" aria-hidden="true" /><MoonIcon className="theme-icon theme-icon-dark" weight="fill" aria-hidden="true" /></button>;
+  return <button className="grid size-[30px] shrink-0 place-items-center rounded-full border border-(--line) bg-transparent text-(--ink) transition-[background-color,border-color,color,transform] duration-200 ease-in-out hover:rotate-4 hover:border-(--theme-control-hover-border) hover:bg-(--theme-control-hover) hover:text-(--theme-control-hover-ink)" type="button" onClick={() => setTheme(isDark ? "light" : "dark")} aria-label={label} title={label}><SunIcon className="size-3.5 dark:hidden" weight="bold" aria-hidden="true" /><MoonIcon className="hidden size-3.5 dark:block" weight="fill" aria-hidden="true" /></button>;
 }

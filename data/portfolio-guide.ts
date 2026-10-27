@@ -41,13 +41,5 @@ export const guideLinks: Record<GuideAudience, readonly GuideLink[]> = {
   curious: [
     { label: "Selected work", description: "Browse a few projects first.", href: "#work" },
     { label: "Experience", description: "See the path behind the work.", href: "#experience" },
-    { label: "Play a small game", description: "Open a short, casual browser game.", href: "#game" },
   ],
 };
-
-export const portfolioGame = {
-  title: "Stone & Key",
-  description: "A short mouse-driven game about finding a hidden key.",
-  href: "https://torukmakto0.itch.io/stone-key",
-  source: "itch.io",
-} as const;
